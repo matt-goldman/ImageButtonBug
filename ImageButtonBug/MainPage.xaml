@@ -44,6 +44,15 @@
             <ImageButton HeightRequest="70"
                          WidthRequest="120"
                          CornerRadius="10"
+                         Background="{StaticResource BackgroundGradient}"
+                         HorizontalOptions="Center"
+                         Source="{FontImageSource FontFamily=Phosphor,
+                                                  Color=Black,
+                                                  Glyph=&#xe0ce;}"/>
+            
+            <ImageButton HeightRequest="70"
+                         WidthRequest="120"
+                         CornerRadius="10"
                          Background="{DynamicResource Gray200Brush}"
                          HorizontalOptions="Center"
                          Source="{FontImageSource FontFamily=Phosphor,
